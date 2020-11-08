@@ -26,7 +26,7 @@ async def quiensoy(ctx):
 
 # @tasks.loop(hours=24)
 # async def called_once_a_day():
-#     message_channel = client.get_channel(774888193610350605)
+#     message_channel = client.get_channel()
 #     print(f"Got channel {message_channel}")
 #     await message_channel.send("feliz domingo")
 
@@ -37,7 +37,7 @@ async def quiensoy(ctx):
 #         if channel.name == 'general':
 #             message_channel = channel
 #     if message_channel is None:
-#         message_channel = client.get_channel(774888193610350605)
+#         message_channel = client.get_channel()
 #
 #     await message_channel.send("feliz domingo")
 # scheduler.add_job(feliz_jueves, 'cron', day_of_week='thu', hour=0, minute=0)
