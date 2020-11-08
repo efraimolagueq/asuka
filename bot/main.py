@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import os, random
 
-client = commands.Bot(command_prefix="<3")
+client = commands.Bot(command_prefix=".")
 package_dir = os.path.dirname(os.path.abspath(__file__))
 token = os.getenv("DISCORD_BOT_TOKEN")
 scheduler = AsyncIOScheduler({'apscheduler.timezone': 'America/Mexico_City'})
